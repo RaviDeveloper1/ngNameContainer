@@ -1,0 +1,11 @@
+.namespace{
+    
+    width: 100px;
+    height: 100px;
+    background-color: rgb(44, 110, 88) ;
+    color: aliceblue;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+   
+}
