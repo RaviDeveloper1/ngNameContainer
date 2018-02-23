@@ -1,10 +1,6 @@
 <div class="names">
   <span> Name Container </span> 
-  <app-namespace [name]="name"></app-namespace>
-  <app-namespace [name]="name"></app-namespace>
-  <app-namespace [name]="name"></app-namespace>
-  <app-namespace [name]="name"></app-namespace>
-  <app-namespace [name]="name"></app-namespace>
-
+  <app-namespace *ngFor="let name of nameList " [name]="name"></app-namespace>
+  
 </div>
 
