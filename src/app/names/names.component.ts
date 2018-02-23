@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NamesComponent implements OnInit {
 
-  name = 'Ravi';
+  nameList = ['alice', 'bravo', 'charles', 'david', 'Edward'];
   constructor() { }
 
   ngOnInit() {
